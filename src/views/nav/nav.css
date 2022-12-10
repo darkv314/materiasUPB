@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0.6em;
+    padding: 0.4em;
+}
+
+.nav-links ul li a:hover{
+    color: var(--fourth-color);
+    background-color: var(--second-color);
+    border-radius: 0.3em;
+}

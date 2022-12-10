@@ -1,0 +1,72 @@
+.materias-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.views {
+    justify-self:start;
+}
+
+.views  button {
+    margin: 0 1em 0 0;
+    font-family: inherit;
+    padding: 0.5em 2em;
+    background-color: var(--fifth-color);
+    border: none;
+    border-radius: 3px;
+}
+
+.views button:hover {
+    background-color: var(--second-color);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.formulario input {
+    display: block;
+}
+
+.formulario {
+    /* padding: 4em 4.5em; */
+    border-radius: 15px;
+    width: 30%;
+    height: 50%;
+    position: fixed;
+    display: flex;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -40%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fifth-color);
+    /* z-index: 1; */
+}
+
+.formulario input {
+    border-radius: 10px;
+    border: none;
+    outline-color: var(--second-color);
+}
+
+/* .formulario form {
+    width: 100%;
+    height: 100%;
+} */
+
+@media(max-width: 750px) {
+    .views {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .views button{
+        margin: 0.2em 0;
+    }
+}
